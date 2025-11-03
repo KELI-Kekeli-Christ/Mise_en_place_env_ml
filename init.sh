@@ -13,7 +13,7 @@ echo "🔧 Mise à jour du système..."
 sudo apt update -y >/dev/null
 sudo apt install -y python3 python3-pip git curl -qq
 echo "✅ Système prêt !"
-
+sudo apt install python3-venv
 # -----------------------------------------
 # ⚙️ Étape 2 : Configuration Git globale
 # -----------------------------------------
